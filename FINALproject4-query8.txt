@@ -1,0 +1,403 @@
+SQL> create table R8 as
+  2  select cname, marital_status, length wand_length, blood_status from characters, wand, spells, faction
+  3  where characters.cname='Severus Snape' and characters.marital_status='D' and length=9.00 and blood_status='HB' and faction.founded<='01-JAN-1700';
+
+Table created.
+
+SQL> select * from R8;
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+CNAME                                         M WAND_LENGTH BL
+--------------------------------------------- - ----------- --
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+Severus Snape                                 D           9 HB
+
+300 rows selected.
+
+SQL> desc R8;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ CNAME                                              VARCHAR2(45)
+ MARITAL_STATUS                                     VARCHAR2(1)
+ WAND_LENGTH                                        NUMBER(4,2)
+ BLOOD_STATUS                                       VARCHAR2(2)
+
+SQL>

@@ -1,0 +1,22 @@
+SQL> create table R3 as
+  2  select incantation, sm_incantation, sm_seen_mention from spells, seen_mention
+  3  where spells.incantation='Diffindo' and seen_mention.sm_seen_mention='By Ron Weasley';
+
+Table created.
+
+SQL> select * from R3;
+
+INCANTATION
+---------------------------------------------
+SM_INCANTATION                                SM_SEEN_MENTION
+--------------------------------------------- ------------------------------
+Diffindo
+Diffindo                                      By Ron Weasley
+
+
+SQL> desc R3;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ INCANTATION                                        VARCHAR2(45)
+ SM_INCANTATION                                     VARCHAR2(45)
+ SM_SEEN_MENTION                                    VARCHAR2(30)

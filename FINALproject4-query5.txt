@@ -1,0 +1,1179 @@
+SQL> create table R5 as
+  2  select cincantation, incantation, type, ca_name, blood_status from spells, casts, characters
+  3  where spells.incantation=casts.cincantation and spells.type='Charm' and casts.ca_name='Harry Potter' and characters.blood_status='HB' and marital_status='M';
+
+Table created.
+
+SQL> select * from R5;
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Aberto
+Aberto
+Charm                               Harry Potter                   HB
+
+Accio
+Accio
+Charm                               Harry Potter                   HB
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+
+Age line
+Age line
+Charm                               Harry Potter                   HB
+
+Alerte Ascendare
+Alerte Ascendare
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Charm                               Harry Potter                   HB
+
+Alohomora
+Alohomora
+Charm                               Harry Potter                   HB
+
+Aparecium
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Aparecium
+Charm                               Harry Potter                   HB
+
+Appare Vestigium
+Appare Vestigium
+Charm                               Harry Potter                   HB
+
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Arresto Momentum
+Arresto Momentum
+Charm                               Harry Potter                   HB
+
+Ascendio
+Ascendio
+Charm                               Harry Potter                   HB
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+
+Baubillious
+Baubillious
+Charm                               Harry Potter                   HB
+
+Bombarda
+Bombarda
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Charm                               Harry Potter                   HB
+
+Bombarda Maxima
+Bombarda Maxima
+Charm                               Harry Potter                   HB
+
+Capacious Extremis
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Capacious Extremis
+Charm                               Harry Potter                   HB
+
+Carpe Retractum
+Carpe Retractum
+Charm                               Harry Potter                   HB
+
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Cave Inimicum
+Cave Inimicum
+Charm                               Harry Potter                   HB
+
+Cistem Aperio
+Cistem Aperio
+Charm                               Harry Potter                   HB
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+
+Colloportus
+Colloportus
+Charm                               Harry Potter                   HB
+
+Colovaria
+Colovaria
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Charm                               Harry Potter                   HB
+
+Confundo
+Confundo
+Charm                               Harry Potter                   HB
+
+Defodio
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Defodio
+Charm                               Harry Potter                   HB
+
+Aqua Eructo
+Aqua Eructo
+Charm                               Harry Potter                   HB
+
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Deletrius
+Deletrius
+Charm                               Harry Potter                   HB
+
+Descendo
+Descendo
+Charm                               Harry Potter                   HB
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+
+Deprimo
+Deprimo
+Charm                               Harry Potter                   HB
+
+Diffindo
+Diffindo
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Charm                               Harry Potter                   HB
+
+Diminuendo
+Diminuendo
+Charm                               Harry Potter                   HB
+
+Dissendium
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Dissendium
+Charm                               Harry Potter                   HB
+
+Duro
+Duro
+Charm                               Harry Potter                   HB
+
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Engorgio
+Engorgio
+Charm                               Harry Potter                   HB
+
+Aberto
+Aberto
+Charm                               Harry Potter                   HB
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+
+Accio
+Accio
+Charm                               Harry Potter                   HB
+
+Age line
+Age line
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Charm                               Harry Potter                   HB
+
+Alerte Ascendare
+Alerte Ascendare
+Charm                               Harry Potter                   HB
+
+Alohomora
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Alohomora
+Charm                               Harry Potter                   HB
+
+Aparecium
+Aparecium
+Charm                               Harry Potter                   HB
+
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Appare Vestigium
+Appare Vestigium
+Charm                               Harry Potter                   HB
+
+Arresto Momentum
+Arresto Momentum
+Charm                               Harry Potter                   HB
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+
+Ascendio
+Ascendio
+Charm                               Harry Potter                   HB
+
+Baubillious
+Baubillious
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Charm                               Harry Potter                   HB
+
+Bombarda
+Bombarda
+Charm                               Harry Potter                   HB
+
+Bombarda Maxima
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Bombarda Maxima
+Charm                               Harry Potter                   HB
+
+Capacious Extremis
+Capacious Extremis
+Charm                               Harry Potter                   HB
+
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Carpe Retractum
+Carpe Retractum
+Charm                               Harry Potter                   HB
+
+Cave Inimicum
+Cave Inimicum
+Charm                               Harry Potter                   HB
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+
+Cistem Aperio
+Cistem Aperio
+Charm                               Harry Potter                   HB
+
+Colloportus
+Colloportus
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Charm                               Harry Potter                   HB
+
+Colovaria
+Colovaria
+Charm                               Harry Potter                   HB
+
+Confundo
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Confundo
+Charm                               Harry Potter                   HB
+
+Defodio
+Defodio
+Charm                               Harry Potter                   HB
+
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Aqua Eructo
+Aqua Eructo
+Charm                               Harry Potter                   HB
+
+Deletrius
+Deletrius
+Charm                               Harry Potter                   HB
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+
+Descendo
+Descendo
+Charm                               Harry Potter                   HB
+
+Deprimo
+Deprimo
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Charm                               Harry Potter                   HB
+
+Diffindo
+Diffindo
+Charm                               Harry Potter                   HB
+
+Diminuendo
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Diminuendo
+Charm                               Harry Potter                   HB
+
+Dissendium
+Dissendium
+Charm                               Harry Potter                   HB
+
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Duro
+Duro
+Charm                               Harry Potter                   HB
+
+Engorgio
+Engorgio
+Charm                               Harry Potter                   HB
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+
+Aberto
+Aberto
+Charm                               Harry Potter                   HB
+
+Accio
+Accio
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Charm                               Harry Potter                   HB
+
+Age line
+Age line
+Charm                               Harry Potter                   HB
+
+Alerte Ascendare
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Alerte Ascendare
+Charm                               Harry Potter                   HB
+
+Alohomora
+Alohomora
+Charm                               Harry Potter                   HB
+
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Aparecium
+Aparecium
+Charm                               Harry Potter                   HB
+
+Appare Vestigium
+Appare Vestigium
+Charm                               Harry Potter                   HB
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+
+Arresto Momentum
+Arresto Momentum
+Charm                               Harry Potter                   HB
+
+Ascendio
+Ascendio
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Charm                               Harry Potter                   HB
+
+Baubillious
+Baubillious
+Charm                               Harry Potter                   HB
+
+Bombarda
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Bombarda
+Charm                               Harry Potter                   HB
+
+Bombarda Maxima
+Bombarda Maxima
+Charm                               Harry Potter                   HB
+
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Capacious Extremis
+Capacious Extremis
+Charm                               Harry Potter                   HB
+
+Carpe Retractum
+Carpe Retractum
+Charm                               Harry Potter                   HB
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+
+Cave Inimicum
+Cave Inimicum
+Charm                               Harry Potter                   HB
+
+Cistem Aperio
+Cistem Aperio
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Charm                               Harry Potter                   HB
+
+Colloportus
+Colloportus
+Charm                               Harry Potter                   HB
+
+Colovaria
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Colovaria
+Charm                               Harry Potter                   HB
+
+Confundo
+Confundo
+Charm                               Harry Potter                   HB
+
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Defodio
+Defodio
+Charm                               Harry Potter                   HB
+
+Aqua Eructo
+Aqua Eructo
+Charm                               Harry Potter                   HB
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+
+Deletrius
+Deletrius
+Charm                               Harry Potter                   HB
+
+Descendo
+Descendo
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Charm                               Harry Potter                   HB
+
+Deprimo
+Deprimo
+Charm                               Harry Potter                   HB
+
+Diffindo
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Diffindo
+Charm                               Harry Potter                   HB
+
+Diminuendo
+Diminuendo
+Charm                               Harry Potter                   HB
+
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Dissendium
+Dissendium
+Charm                               Harry Potter                   HB
+
+Duro
+Duro
+Charm                               Harry Potter                   HB
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+
+Engorgio
+Engorgio
+Charm                               Harry Potter                   HB
+
+Aberto
+Aberto
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Charm                               Harry Potter                   HB
+
+Accio
+Accio
+Charm                               Harry Potter                   HB
+
+Age line
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Age line
+Charm                               Harry Potter                   HB
+
+Alerte Ascendare
+Alerte Ascendare
+Charm                               Harry Potter                   HB
+
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Alohomora
+Alohomora
+Charm                               Harry Potter                   HB
+
+Aparecium
+Aparecium
+Charm                               Harry Potter                   HB
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+
+Appare Vestigium
+Appare Vestigium
+Charm                               Harry Potter                   HB
+
+Arresto Momentum
+Arresto Momentum
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Charm                               Harry Potter                   HB
+
+Ascendio
+Ascendio
+Charm                               Harry Potter                   HB
+
+Baubillious
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Baubillious
+Charm                               Harry Potter                   HB
+
+Bombarda
+Bombarda
+Charm                               Harry Potter                   HB
+
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Bombarda Maxima
+Bombarda Maxima
+Charm                               Harry Potter                   HB
+
+Capacious Extremis
+Capacious Extremis
+Charm                               Harry Potter                   HB
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+
+Carpe Retractum
+Carpe Retractum
+Charm                               Harry Potter                   HB
+
+Cave Inimicum
+Cave Inimicum
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Charm                               Harry Potter                   HB
+
+Cistem Aperio
+Cistem Aperio
+Charm                               Harry Potter                   HB
+
+Colloportus
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Colloportus
+Charm                               Harry Potter                   HB
+
+Colovaria
+Colovaria
+Charm                               Harry Potter                   HB
+
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Confundo
+Confundo
+Charm                               Harry Potter                   HB
+
+Defodio
+Defodio
+Charm                               Harry Potter                   HB
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+
+Aqua Eructo
+Aqua Eructo
+Charm                               Harry Potter                   HB
+
+Deletrius
+Deletrius
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Charm                               Harry Potter                   HB
+
+Descendo
+Descendo
+Charm                               Harry Potter                   HB
+
+Deprimo
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Deprimo
+Charm                               Harry Potter                   HB
+
+Diffindo
+Diffindo
+Charm                               Harry Potter                   HB
+
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Diminuendo
+Diminuendo
+Charm                               Harry Potter                   HB
+
+Dissendium
+Dissendium
+Charm                               Harry Potter                   HB
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+
+Duro
+Duro
+Charm                               Harry Potter                   HB
+
+Engorgio
+Engorgio
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Charm                               Harry Potter                   HB
+
+Aberto
+Aberto
+Charm                               Harry Potter                   HB
+
+Accio
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Accio
+Charm                               Harry Potter                   HB
+
+Age line
+Age line
+Charm                               Harry Potter                   HB
+
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Alerte Ascendare
+Alerte Ascendare
+Charm                               Harry Potter                   HB
+
+Alohomora
+Alohomora
+Charm                               Harry Potter                   HB
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+
+Aparecium
+Aparecium
+Charm                               Harry Potter                   HB
+
+Appare Vestigium
+Appare Vestigium
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Charm                               Harry Potter                   HB
+
+Arresto Momentum
+Arresto Momentum
+Charm                               Harry Potter                   HB
+
+Ascendio
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Ascendio
+Charm                               Harry Potter                   HB
+
+Baubillious
+Baubillious
+Charm                               Harry Potter                   HB
+
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Bombarda
+Bombarda
+Charm                               Harry Potter                   HB
+
+Bombarda Maxima
+Bombarda Maxima
+Charm                               Harry Potter                   HB
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+
+Capacious Extremis
+Capacious Extremis
+Charm                               Harry Potter                   HB
+
+Carpe Retractum
+Carpe Retractum
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Charm                               Harry Potter                   HB
+
+Cave Inimicum
+Cave Inimicum
+Charm                               Harry Potter                   HB
+
+Cistem Aperio
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Cistem Aperio
+Charm                               Harry Potter                   HB
+
+Colloportus
+Colloportus
+Charm                               Harry Potter                   HB
+
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Colovaria
+Colovaria
+Charm                               Harry Potter                   HB
+
+Confundo
+Confundo
+Charm                               Harry Potter                   HB
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+
+Defodio
+Defodio
+Charm                               Harry Potter                   HB
+
+Aqua Eructo
+Aqua Eructo
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Charm                               Harry Potter                   HB
+
+Deletrius
+Deletrius
+Charm                               Harry Potter                   HB
+
+Descendo
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Descendo
+Charm                               Harry Potter                   HB
+
+Deprimo
+Deprimo
+Charm                               Harry Potter                   HB
+
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Diffindo
+Diffindo
+Charm                               Harry Potter                   HB
+
+Diminuendo
+Diminuendo
+Charm                               Harry Potter                   HB
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+
+Dissendium
+Dissendium
+Charm                               Harry Potter                   HB
+
+Duro
+Duro
+
+CINCANTATION
+---------------------------------------------
+INCANTATION
+---------------------------------------------
+TYPE                                CA_NAME                        BL
+----------------------------------- ------------------------------ --
+Charm                               Harry Potter                   HB
+
+Engorgio
+Engorgio
+Charm                               Harry Potter                   HB
+
+
+145 rows selected.
+
+SQL> desc R5;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ CINCANTATION                                       VARCHAR2(45)
+ INCANTATION                                        VARCHAR2(45)
+ TYPE                                               VARCHAR2(35)
+ CA_NAME                                            VARCHAR2(30)
+ BLOOD_STATUS                                       VARCHAR2(2)

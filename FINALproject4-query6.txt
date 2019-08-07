@@ -1,0 +1,542 @@
+SQL> create table R6 as
+  2  select cincantation, wname, fac_name from casts, wand, affiliates
+  3  where casts.cincantation='Bombarda' and wand.wname > 'NULL' and affiliates.fac_name='British Ministry of Magic';
+
+Table created.
+
+SQL> select * from R6;
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+Bombarda
+The Elder Wand
+British Ministry of Magic
+
+Bombarda
+Sir Cadogans Wand
+British Ministry of Magic
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+
+Bombarda
+Snatchers Wand
+British Ministry of Magic
+
+Bombarda
+Neville Longbottom Wand
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+British Ministry of Magic
+
+Bombarda
+Peter Pettigrew Wand
+British Ministry of Magic
+
+Bombarda
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+Quirinus Quirrell Wand
+British Ministry of Magic
+
+Bombarda
+Remus Lupin Wand
+British Ministry of Magic
+
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+Bombarda
+Ron Weasley First Wand
+British Ministry of Magic
+
+Bombarda
+Ron Weasley Wand
+British Ministry of Magic
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+
+Bombarda
+Rubeus Hagrid Umbrella
+British Ministry of Magic
+
+Bombarda
+Tom Riddle Wand
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+British Ministry of Magic
+
+Bombarda
+Viktor Krum Wand
+British Ministry of Magic
+
+Bombarda
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+Sybil Trelawney Wand
+British Ministry of Magic
+
+Bombarda
+The Elder Wand
+British Ministry of Magic
+
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+Bombarda
+Sir Cadogans Wand
+British Ministry of Magic
+
+Bombarda
+Snatchers Wand
+British Ministry of Magic
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+
+Bombarda
+Neville Longbottom Wand
+British Ministry of Magic
+
+Bombarda
+Peter Pettigrew Wand
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+British Ministry of Magic
+
+Bombarda
+Quirinus Quirrell Wand
+British Ministry of Magic
+
+Bombarda
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+Remus Lupin Wand
+British Ministry of Magic
+
+Bombarda
+Ron Weasley First Wand
+British Ministry of Magic
+
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+Bombarda
+Ron Weasley Wand
+British Ministry of Magic
+
+Bombarda
+Rubeus Hagrid Umbrella
+British Ministry of Magic
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+
+Bombarda
+Tom Riddle Wand
+British Ministry of Magic
+
+Bombarda
+Viktor Krum Wand
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+British Ministry of Magic
+
+Bombarda
+Sybil Trelawney Wand
+British Ministry of Magic
+
+Bombarda
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+The Elder Wand
+British Ministry of Magic
+
+Bombarda
+Sir Cadogans Wand
+British Ministry of Magic
+
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+Bombarda
+Snatchers Wand
+British Ministry of Magic
+
+Bombarda
+Neville Longbottom Wand
+British Ministry of Magic
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+
+Bombarda
+Peter Pettigrew Wand
+British Ministry of Magic
+
+Bombarda
+Quirinus Quirrell Wand
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+British Ministry of Magic
+
+Bombarda
+Remus Lupin Wand
+British Ministry of Magic
+
+Bombarda
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+Ron Weasley First Wand
+British Ministry of Magic
+
+Bombarda
+Ron Weasley Wand
+British Ministry of Magic
+
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+Bombarda
+Rubeus Hagrid Umbrella
+British Ministry of Magic
+
+Bombarda
+Tom Riddle Wand
+British Ministry of Magic
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+
+Bombarda
+Viktor Krum Wand
+British Ministry of Magic
+
+Bombarda
+Sybil Trelawney Wand
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+British Ministry of Magic
+
+Bombarda
+The Elder Wand
+British Ministry of Magic
+
+Bombarda
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+Sir Cadogans Wand
+British Ministry of Magic
+
+Bombarda
+Snatchers Wand
+British Ministry of Magic
+
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+Bombarda
+Neville Longbottom Wand
+British Ministry of Magic
+
+Bombarda
+Peter Pettigrew Wand
+British Ministry of Magic
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+
+Bombarda
+Quirinus Quirrell Wand
+British Ministry of Magic
+
+Bombarda
+Remus Lupin Wand
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+British Ministry of Magic
+
+Bombarda
+Ron Weasley First Wand
+British Ministry of Magic
+
+Bombarda
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+Ron Weasley Wand
+British Ministry of Magic
+
+Bombarda
+Rubeus Hagrid Umbrella
+British Ministry of Magic
+
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+Bombarda
+Tom Riddle Wand
+British Ministry of Magic
+
+Bombarda
+Viktor Krum Wand
+British Ministry of Magic
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+
+Bombarda
+Sybil Trelawney Wand
+British Ministry of Magic
+
+Bombarda
+The Elder Wand
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+British Ministry of Magic
+
+Bombarda
+Sir Cadogans Wand
+British Ministry of Magic
+
+Bombarda
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+Snatchers Wand
+British Ministry of Magic
+
+Bombarda
+Neville Longbottom Wand
+British Ministry of Magic
+
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+Bombarda
+Peter Pettigrew Wand
+British Ministry of Magic
+
+Bombarda
+Quirinus Quirrell Wand
+British Ministry of Magic
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+
+Bombarda
+Remus Lupin Wand
+British Ministry of Magic
+
+Bombarda
+Ron Weasley First Wand
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+British Ministry of Magic
+
+Bombarda
+Ron Weasley Wand
+British Ministry of Magic
+
+Bombarda
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+Rubeus Hagrid Umbrella
+British Ministry of Magic
+
+Bombarda
+Tom Riddle Wand
+British Ministry of Magic
+
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+Bombarda
+Viktor Krum Wand
+British Ministry of Magic
+
+Bombarda
+Sybil Trelawney Wand
+British Ministry of Magic
+
+CINCANTATION
+---------------------------------------------
+WNAME
+---------------------------------------------
+FAC_NAME
+---------------------------------------------
+
+
+65 rows selected.
+
+SQL> desc R6;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ CINCANTATION                                       VARCHAR2(45)
+ WNAME                                              VARCHAR2(45)
+ FAC_NAME                                           VARCHAR2(45)

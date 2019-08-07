@@ -1,0 +1,304 @@
+
+SQL> create table R1 as
+  2  select cname, attends_by, blood_status from school, characters
+  3  where characters.attends_by='Hogwarts' and characters.blood_status='PB';
+
+Table created.
+
+SQL> select * from R1;
+
+CNAME                                         ATTENDS_BY                     BL
+--------------------------------------------- ------------------------------ --
+Harry Potter                                  Hogwarts                       PB
+Ron Weasley                                   Hogwarts                       PB
+Neville Longbottom                            Hogwarts                       PB
+Molly Weasley                                 Hogwarts                       PB
+Fred Weasley                                  Hogwarts                       PB
+George Weasley                                Hogwarts                       PB
+Vincent Crabbe                                Hogwarts                       PB
+Lucius Malfoy                                 Hogwarts                       PB
+Draco Malfoy                                  Hogwarts                       PB
+Peter Pettigrew                               Hogwarts                       PB
+Antonin Dolohov                               Hogwarts                       PB
+
+CNAME                                         ATTENDS_BY                     BL
+--------------------------------------------- ------------------------------ --
+Narcissa Malfoy                               Hogwarts                       PB
+Albus Dumbledore                              Hogwarts                       PB
+Alastor Moody                                 Hogwarts                       PB
+Kingsley Shacklebolt                          Hogwarts                       PB
+Sir Cadogans                                  Hogwarts                       PB
+Celestina Warbeck                             Hogwarts                       PB
+Dolores Umbridge                              Hogwarts                       PB
+Gilderoy Lockhart                             Hogwarts                       PB
+Charles Weasley                               Hogwarts                       PB
+Viktor Krum                                   Hogwarts                       PB
+Ginny Weasley                                 Hogwarts                       PB
+
+CNAME                                         ATTENDS_BY                     BL
+--------------------------------------------- ------------------------------ --
+Barty Crouch Sr.                              Hogwarts                       PB
+Lord Voldemort                                Hogwarts                       PB
+Petunia Dursley                               Hogwarts                       PB
+Dudley Dursley                                Hogwarts                       PB
+Marjorie Dursley                              Hogwarts                       PB
+Frank Bryce                                   Hogwarts                       PB
+Harry Potter                                  Hogwarts                       PB
+Ron Weasley                                   Hogwarts                       PB
+Neville Longbottom                            Hogwarts                       PB
+Molly Weasley                                 Hogwarts                       PB
+Fred Weasley                                  Hogwarts                       PB
+
+CNAME                                         ATTENDS_BY                     BL
+--------------------------------------------- ------------------------------ --
+George Weasley                                Hogwarts                       PB
+Vincent Crabbe                                Hogwarts                       PB
+Lucius Malfoy                                 Hogwarts                       PB
+Draco Malfoy                                  Hogwarts                       PB
+Peter Pettigrew                               Hogwarts                       PB
+Antonin Dolohov                               Hogwarts                       PB
+Narcissa Malfoy                               Hogwarts                       PB
+Albus Dumbledore                              Hogwarts                       PB
+Alastor Moody                                 Hogwarts                       PB
+Kingsley Shacklebolt                          Hogwarts                       PB
+Sir Cadogans                                  Hogwarts                       PB
+
+CNAME                                         ATTENDS_BY                     BL
+--------------------------------------------- ------------------------------ --
+Celestina Warbeck                             Hogwarts                       PB
+Dolores Umbridge                              Hogwarts                       PB
+Gilderoy Lockhart                             Hogwarts                       PB
+Charles Weasley                               Hogwarts                       PB
+Viktor Krum                                   Hogwarts                       PB
+Ginny Weasley                                 Hogwarts                       PB
+Barty Crouch Sr.                              Hogwarts                       PB
+Lord Voldemort                                Hogwarts                       PB
+Petunia Dursley                               Hogwarts                       PB
+Dudley Dursley                                Hogwarts                       PB
+Marjorie Dursley                              Hogwarts                       PB
+
+CNAME                                         ATTENDS_BY                     BL
+--------------------------------------------- ------------------------------ --
+Frank Bryce                                   Hogwarts                       PB
+Harry Potter                                  Hogwarts                       PB
+Ron Weasley                                   Hogwarts                       PB
+Neville Longbottom                            Hogwarts                       PB
+Molly Weasley                                 Hogwarts                       PB
+Fred Weasley                                  Hogwarts                       PB
+George Weasley                                Hogwarts                       PB
+Vincent Crabbe                                Hogwarts                       PB
+Lucius Malfoy                                 Hogwarts                       PB
+Draco Malfoy                                  Hogwarts                       PB
+Peter Pettigrew                               Hogwarts                       PB
+
+CNAME                                         ATTENDS_BY                     BL
+--------------------------------------------- ------------------------------ --
+Antonin Dolohov                               Hogwarts                       PB
+Narcissa Malfoy                               Hogwarts                       PB
+Albus Dumbledore                              Hogwarts                       PB
+Alastor Moody                                 Hogwarts                       PB
+Kingsley Shacklebolt                          Hogwarts                       PB
+Sir Cadogans                                  Hogwarts                       PB
+Celestina Warbeck                             Hogwarts                       PB
+Dolores Umbridge                              Hogwarts                       PB
+Gilderoy Lockhart                             Hogwarts                       PB
+Charles Weasley                               Hogwarts                       PB
+Viktor Krum                                   Hogwarts                       PB
+
+CNAME                                         ATTENDS_BY                     BL
+--------------------------------------------- ------------------------------ --
+Ginny Weasley                                 Hogwarts                       PB
+Barty Crouch Sr.                              Hogwarts                       PB
+Lord Voldemort                                Hogwarts                       PB
+Petunia Dursley                               Hogwarts                       PB
+Dudley Dursley                                Hogwarts                       PB
+Marjorie Dursley                              Hogwarts                       PB
+Frank Bryce                                   Hogwarts                       PB
+Harry Potter                                  Hogwarts                       PB
+Ron Weasley                                   Hogwarts                       PB
+Neville Longbottom                            Hogwarts                       PB
+Molly Weasley                                 Hogwarts                       PB
+
+CNAME                                         ATTENDS_BY                     BL
+--------------------------------------------- ------------------------------ --
+Fred Weasley                                  Hogwarts                       PB
+George Weasley                                Hogwarts                       PB
+Vincent Crabbe                                Hogwarts                       PB
+Lucius Malfoy                                 Hogwarts                       PB
+Draco Malfoy                                  Hogwarts                       PB
+Peter Pettigrew                               Hogwarts                       PB
+Antonin Dolohov                               Hogwarts                       PB
+Narcissa Malfoy                               Hogwarts                       PB
+Albus Dumbledore                              Hogwarts                       PB
+Alastor Moody                                 Hogwarts                       PB
+Kingsley Shacklebolt                          Hogwarts                       PB
+
+CNAME                                         ATTENDS_BY                     BL
+--------------------------------------------- ------------------------------ --
+Sir Cadogans                                  Hogwarts                       PB
+Celestina Warbeck                             Hogwarts                       PB
+Dolores Umbridge                              Hogwarts                       PB
+Gilderoy Lockhart                             Hogwarts                       PB
+Charles Weasley                               Hogwarts                       PB
+Viktor Krum                                   Hogwarts                       PB
+Ginny Weasley                                 Hogwarts                       PB
+Barty Crouch Sr.                              Hogwarts                       PB
+Lord Voldemort                                Hogwarts                       PB
+Petunia Dursley                               Hogwarts                       PB
+Dudley Dursley                                Hogwarts                       PB
+
+CNAME                                         ATTENDS_BY                     BL
+--------------------------------------------- ------------------------------ --
+Marjorie Dursley                              Hogwarts                       PB
+Frank Bryce                                   Hogwarts                       PB
+Harry Potter                                  Hogwarts                       PB
+Ron Weasley                                   Hogwarts                       PB
+Neville Longbottom                            Hogwarts                       PB
+Molly Weasley                                 Hogwarts                       PB
+Fred Weasley                                  Hogwarts                       PB
+George Weasley                                Hogwarts                       PB
+Vincent Crabbe                                Hogwarts                       PB
+Lucius Malfoy                                 Hogwarts                       PB
+Draco Malfoy                                  Hogwarts                       PB
+
+CNAME                                         ATTENDS_BY                     BL
+--------------------------------------------- ------------------------------ --
+Peter Pettigrew                               Hogwarts                       PB
+Antonin Dolohov                               Hogwarts                       PB
+Narcissa Malfoy                               Hogwarts                       PB
+Albus Dumbledore                              Hogwarts                       PB
+Alastor Moody                                 Hogwarts                       PB
+Kingsley Shacklebolt                          Hogwarts                       PB
+Sir Cadogans                                  Hogwarts                       PB
+Celestina Warbeck                             Hogwarts                       PB
+Dolores Umbridge                              Hogwarts                       PB
+Gilderoy Lockhart                             Hogwarts                       PB
+Charles Weasley                               Hogwarts                       PB
+
+CNAME                                         ATTENDS_BY                     BL
+--------------------------------------------- ------------------------------ --
+Viktor Krum                                   Hogwarts                       PB
+Ginny Weasley                                 Hogwarts                       PB
+Barty Crouch Sr.                              Hogwarts                       PB
+Lord Voldemort                                Hogwarts                       PB
+Petunia Dursley                               Hogwarts                       PB
+Dudley Dursley                                Hogwarts                       PB
+Marjorie Dursley                              Hogwarts                       PB
+Frank Bryce                                   Hogwarts                       PB
+Harry Potter                                  Hogwarts                       PB
+Ron Weasley                                   Hogwarts                       PB
+Neville Longbottom                            Hogwarts                       PB
+
+CNAME                                         ATTENDS_BY                     BL
+--------------------------------------------- ------------------------------ --
+Molly Weasley                                 Hogwarts                       PB
+Fred Weasley                                  Hogwarts                       PB
+George Weasley                                Hogwarts                       PB
+Vincent Crabbe                                Hogwarts                       PB
+Lucius Malfoy                                 Hogwarts                       PB
+Draco Malfoy                                  Hogwarts                       PB
+Peter Pettigrew                               Hogwarts                       PB
+Antonin Dolohov                               Hogwarts                       PB
+Narcissa Malfoy                               Hogwarts                       PB
+Albus Dumbledore                              Hogwarts                       PB
+Alastor Moody                                 Hogwarts                       PB
+
+CNAME                                         ATTENDS_BY                     BL
+--------------------------------------------- ------------------------------ --
+Kingsley Shacklebolt                          Hogwarts                       PB
+Sir Cadogans                                  Hogwarts                       PB
+Celestina Warbeck                             Hogwarts                       PB
+Dolores Umbridge                              Hogwarts                       PB
+Gilderoy Lockhart                             Hogwarts                       PB
+Charles Weasley                               Hogwarts                       PB
+Viktor Krum                                   Hogwarts                       PB
+Ginny Weasley                                 Hogwarts                       PB
+Barty Crouch Sr.                              Hogwarts                       PB
+Lord Voldemort                                Hogwarts                       PB
+Petunia Dursley                               Hogwarts                       PB
+
+CNAME                                         ATTENDS_BY                     BL
+--------------------------------------------- ------------------------------ --
+Dudley Dursley                                Hogwarts                       PB
+Marjorie Dursley                              Hogwarts                       PB
+Frank Bryce                                   Hogwarts                       PB
+Harry Potter                                  Hogwarts                       PB
+Ron Weasley                                   Hogwarts                       PB
+Neville Longbottom                            Hogwarts                       PB
+Molly Weasley                                 Hogwarts                       PB
+Fred Weasley                                  Hogwarts                       PB
+George Weasley                                Hogwarts                       PB
+Vincent Crabbe                                Hogwarts                       PB
+Lucius Malfoy                                 Hogwarts                       PB
+
+CNAME                                         ATTENDS_BY                     BL
+--------------------------------------------- ------------------------------ --
+Draco Malfoy                                  Hogwarts                       PB
+Peter Pettigrew                               Hogwarts                       PB
+Antonin Dolohov                               Hogwarts                       PB
+Narcissa Malfoy                               Hogwarts                       PB
+Albus Dumbledore                              Hogwarts                       PB
+Alastor Moody                                 Hogwarts                       PB
+Kingsley Shacklebolt                          Hogwarts                       PB
+Sir Cadogans                                  Hogwarts                       PB
+Celestina Warbeck                             Hogwarts                       PB
+Dolores Umbridge                              Hogwarts                       PB
+Gilderoy Lockhart                             Hogwarts                       PB
+
+CNAME                                         ATTENDS_BY                     BL
+--------------------------------------------- ------------------------------ --
+Charles Weasley                               Hogwarts                       PB
+Viktor Krum                                   Hogwarts                       PB
+Ginny Weasley                                 Hogwarts                       PB
+Barty Crouch Sr.                              Hogwarts                       PB
+Lord Voldemort                                Hogwarts                       PB
+Petunia Dursley                               Hogwarts                       PB
+Dudley Dursley                                Hogwarts                       PB
+Marjorie Dursley                              Hogwarts                       PB
+Frank Bryce                                   Hogwarts                       PB
+Harry Potter                                  Hogwarts                       PB
+Ron Weasley                                   Hogwarts                       PB
+
+CNAME                                         ATTENDS_BY                     BL
+--------------------------------------------- ------------------------------ --
+Neville Longbottom                            Hogwarts                       PB
+Molly Weasley                                 Hogwarts                       PB
+Fred Weasley                                  Hogwarts                       PB
+George Weasley                                Hogwarts                       PB
+Vincent Crabbe                                Hogwarts                       PB
+Lucius Malfoy                                 Hogwarts                       PB
+Draco Malfoy                                  Hogwarts                       PB
+Peter Pettigrew                               Hogwarts                       PB
+Antonin Dolohov                               Hogwarts                       PB
+Narcissa Malfoy                               Hogwarts                       PB
+Albus Dumbledore                              Hogwarts                       PB
+
+CNAME                                         ATTENDS_BY                     BL
+--------------------------------------------- ------------------------------ --
+Alastor Moody                                 Hogwarts                       PB
+Kingsley Shacklebolt                          Hogwarts                       PB
+Sir Cadogans                                  Hogwarts                       PB
+Celestina Warbeck                             Hogwarts                       PB
+Dolores Umbridge                              Hogwarts                       PB
+Gilderoy Lockhart                             Hogwarts                       PB
+Charles Weasley                               Hogwarts                       PB
+Viktor Krum                                   Hogwarts                       PB
+Ginny Weasley                                 Hogwarts                       PB
+Barty Crouch Sr.                              Hogwarts                       PB
+Lord Voldemort                                Hogwarts                       PB
+
+CNAME                                         ATTENDS_BY                     BL
+--------------------------------------------- ------------------------------ --
+Petunia Dursley                               Hogwarts                       PB
+Dudley Dursley                                Hogwarts                       PB
+Marjorie Dursley                              Hogwarts                       PB
+Frank Bryce                                   Hogwarts                       PB
+
+224 rows selected.
+
+SQL> desc R1
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ CNAME                                              VARCHAR2(45)
+ ATTENDS_BY                                         VARCHAR2(30)
+ BLOOD_STATUS                                       VARCHAR2(2)

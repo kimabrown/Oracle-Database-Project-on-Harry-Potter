@@ -1,0 +1,213 @@
+SQL> create table R4 as
+  2  select instructs, Bdate, attends_by, headquarters from characters, faction
+  3  where characters.instructs='OotP' and Bdate > '14-JUL-2002';
+
+Table created.
+
+SQL> select * from R4;
+
+INSTRUCTS       BDATE     ATTENDS_BY
+--------------- --------- ------------------------------
+HEADQUARTERS
+----------------------------------------------------------------------
+OotP            15-JAN-11 Hogwarts
+Whitehall, London, England, Great Britain
+
+OotP            15-JAN-11 Hogwarts
+Riddle House, Little Hangleton
+
+OotP            15-JAN-11 Hogwarts
+12 Grimmauld Place
+
+
+INSTRUCTS       BDATE     ATTENDS_BY
+--------------- --------- ------------------------------
+HEADQUARTERS
+----------------------------------------------------------------------
+OotP            15-JAN-11 Hogwarts
+Appalachian Mountains, Washington
+
+OotP            15-JAN-11 Hogwarts
+French Ministry of Magic Paris, France
+
+OotP            15-JAN-11 Hogwarts
+Ministry of Magic under Voldemort
+
+
+INSTRUCTS       BDATE     ATTENDS_BY
+--------------- --------- ------------------------------
+HEADQUARTERS
+----------------------------------------------------------------------
+OotP            15-JAN-11 Hogwarts
+North Side of Diagon Alley London, England
+
+OotP            15-JUN-10 Hogwarts
+Whitehall, London, England, Great Britain
+
+OotP            15-JUN-10 Hogwarts
+Riddle House, Little Hangleton
+
+
+INSTRUCTS       BDATE     ATTENDS_BY
+--------------- --------- ------------------------------
+HEADQUARTERS
+----------------------------------------------------------------------
+OotP            15-JUN-10 Hogwarts
+12 Grimmauld Place
+
+OotP            15-JUN-10 Hogwarts
+Appalachian Mountains, Washington
+
+OotP            15-JUN-10 Hogwarts
+French Ministry of Magic Paris, France
+
+
+INSTRUCTS       BDATE     ATTENDS_BY
+--------------- --------- ------------------------------
+HEADQUARTERS
+----------------------------------------------------------------------
+OotP            15-JUN-10 Hogwarts
+Ministry of Magic under Voldemort
+
+OotP            15-JUN-10 Hogwarts
+North Side of Diagon Alley London, England
+
+OotP            15-FEB-09 Hogwarts
+Whitehall, London, England, Great Britain
+
+
+INSTRUCTS       BDATE     ATTENDS_BY
+--------------- --------- ------------------------------
+HEADQUARTERS
+----------------------------------------------------------------------
+OotP            15-FEB-09 Hogwarts
+Riddle House, Little Hangleton
+
+OotP            15-FEB-09 Hogwarts
+12 Grimmauld Place
+
+OotP            15-FEB-09 Hogwarts
+Appalachian Mountains, Washington
+
+
+INSTRUCTS       BDATE     ATTENDS_BY
+--------------- --------- ------------------------------
+HEADQUARTERS
+----------------------------------------------------------------------
+OotP            15-FEB-09 Hogwarts
+French Ministry of Magic Paris, France
+
+OotP            15-FEB-09 Hogwarts
+Ministry of Magic under Voldemort
+
+OotP            15-FEB-09 Hogwarts
+North Side of Diagon Alley London, England
+
+
+INSTRUCTS       BDATE     ATTENDS_BY
+--------------- --------- ------------------------------
+HEADQUARTERS
+----------------------------------------------------------------------
+OotP            15-JUN-08 Hogwarts
+Whitehall, London, England, Great Britain
+
+OotP            15-JUN-08 Hogwarts
+Riddle House, Little Hangleton
+
+OotP            15-JUN-08 Hogwarts
+12 Grimmauld Place
+
+
+INSTRUCTS       BDATE     ATTENDS_BY
+--------------- --------- ------------------------------
+HEADQUARTERS
+----------------------------------------------------------------------
+OotP            15-JUN-08 Hogwarts
+Appalachian Mountains, Washington
+
+OotP            15-JUN-08 Hogwarts
+French Ministry of Magic Paris, France
+
+OotP            15-JUN-08 Hogwarts
+Ministry of Magic under Voldemort
+
+
+INSTRUCTS       BDATE     ATTENDS_BY
+--------------- --------- ------------------------------
+HEADQUARTERS
+----------------------------------------------------------------------
+OotP            15-JUN-08 Hogwarts
+North Side of Diagon Alley London, England
+
+OotP            15-JUL-07 Hogwarts
+Whitehall, London, England, Great Britain
+
+OotP            15-JUL-07 Hogwarts
+Riddle House, Little Hangleton
+
+
+INSTRUCTS       BDATE     ATTENDS_BY
+--------------- --------- ------------------------------
+HEADQUARTERS
+----------------------------------------------------------------------
+OotP            15-JUL-07 Hogwarts
+12 Grimmauld Place
+
+OotP            15-JUL-07 Hogwarts
+Appalachian Mountains, Washington
+
+OotP            15-JUL-07 Hogwarts
+French Ministry of Magic Paris, France
+
+
+INSTRUCTS       BDATE     ATTENDS_BY
+--------------- --------- ------------------------------
+HEADQUARTERS
+----------------------------------------------------------------------
+OotP            15-JUL-07 Hogwarts
+Ministry of Magic under Voldemort
+
+OotP            15-JUL-07 Hogwarts
+North Side of Diagon Alley London, England
+
+OotP            15-AUG-06 Hogwarts
+Whitehall, London, England, Great Britain
+
+
+INSTRUCTS       BDATE     ATTENDS_BY
+--------------- --------- ------------------------------
+HEADQUARTERS
+----------------------------------------------------------------------
+OotP            15-AUG-06 Hogwarts
+Riddle House, Little Hangleton
+
+OotP            15-AUG-06 Hogwarts
+12 Grimmauld Place
+
+OotP            15-AUG-06 Hogwarts
+Appalachian Mountains, Washington
+
+
+INSTRUCTS       BDATE     ATTENDS_BY
+--------------- --------- ------------------------------
+HEADQUARTERS
+----------------------------------------------------------------------
+OotP            15-AUG-06 Hogwarts
+French Ministry of Magic Paris, France
+
+OotP            15-AUG-06 Hogwarts
+Ministry of Magic under Voldemort
+
+OotP            15-AUG-06 Hogwarts
+North Side of Diagon Alley London, England
+
+
+42 rows selected.
+
+SQL> desc R4;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ INSTRUCTS                                          VARCHAR2(15)
+ BDATE                                              DATE
+ ATTENDS_BY                                         VARCHAR2(30)
+ HEADQUARTERS                                       VARCHAR2(70)

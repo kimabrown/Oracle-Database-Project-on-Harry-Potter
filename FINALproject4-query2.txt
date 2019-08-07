@@ -1,0 +1,316 @@
+SQL> create table R2 as
+  2  select wname, instructs, length from characters, wand
+  3  where characters.instructs='Death Eaters';
+
+Table created.
+
+SQL> select * from R2;
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+The Elder Wand                                Death Eaters            15
+Bellatrix Lestrange Wand                      Death Eaters         12.75
+Sir Cadogans Wand                             Death Eaters             9
+Celestina Warbeck Wand                        Death Eaters          10.5
+Dolores Umbridge Wand                         Death Eaters             8
+Draco Malfoy Wand                             Death Eaters            10
+Gilderoy Lockhart Wand                        Death Eaters             9
+Harry Potter Wand                             Death Eaters            11
+Snatchers Wand                                Death Eaters            10
+Hermione Granger Wand                         Death Eaters         10.75
+Horace Slughorn Wand                          Death Eaters         10.25
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+James Potter Wand                             Death Eaters            11
+Lily Evans Wand                               Death Eaters         10.25
+Lucius Malfoy Wand                            Death Eaters            18
+Minerva McGonagall Wand                       Death Eaters           9.5
+Neville Longbottom Wand                       Death Eaters            10
+Peter Pettigrew Wand                          Death Eaters          9.25
+Quirinus Quirrell Wand                        Death Eaters             9
+Remus Lupin Wand                              Death Eaters         10.25
+Ron Weasley First Wand                        Death Eaters            12
+Ron Weasley Wand                              Death Eaters            14
+Rubeus Hagrid Umbrella                        Death Eaters            16
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+Tom Riddle Wand                               Death Eaters          13.5
+Viktor Krum Wand                              Death Eaters         10.25
+Ginny Weasley Wand                            Death Eaters          11.5
+Sybil Trelawney Wand                          Death Eaters           9.5
+The Elder Wand                                Death Eaters            15
+Bellatrix Lestrange Wand                      Death Eaters         12.75
+Sir Cadogans Wand                             Death Eaters             9
+Celestina Warbeck Wand                        Death Eaters          10.5
+Dolores Umbridge Wand                         Death Eaters             8
+Draco Malfoy Wand                             Death Eaters            10
+Gilderoy Lockhart Wand                        Death Eaters             9
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+Harry Potter Wand                             Death Eaters            11
+Snatchers Wand                                Death Eaters            10
+Hermione Granger Wand                         Death Eaters         10.75
+Horace Slughorn Wand                          Death Eaters         10.25
+James Potter Wand                             Death Eaters            11
+Lily Evans Wand                               Death Eaters         10.25
+Lucius Malfoy Wand                            Death Eaters            18
+Minerva McGonagall Wand                       Death Eaters           9.5
+Neville Longbottom Wand                       Death Eaters            10
+Peter Pettigrew Wand                          Death Eaters          9.25
+Quirinus Quirrell Wand                        Death Eaters             9
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+Remus Lupin Wand                              Death Eaters         10.25
+Ron Weasley First Wand                        Death Eaters            12
+Ron Weasley Wand                              Death Eaters            14
+Rubeus Hagrid Umbrella                        Death Eaters            16
+Tom Riddle Wand                               Death Eaters          13.5
+Viktor Krum Wand                              Death Eaters         10.25
+Ginny Weasley Wand                            Death Eaters          11.5
+Sybil Trelawney Wand                          Death Eaters           9.5
+The Elder Wand                                Death Eaters            15
+Bellatrix Lestrange Wand                      Death Eaters         12.75
+Sir Cadogans Wand                             Death Eaters             9
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+Celestina Warbeck Wand                        Death Eaters          10.5
+Dolores Umbridge Wand                         Death Eaters             8
+Draco Malfoy Wand                             Death Eaters            10
+Gilderoy Lockhart Wand                        Death Eaters             9
+Harry Potter Wand                             Death Eaters            11
+Snatchers Wand                                Death Eaters            10
+Hermione Granger Wand                         Death Eaters         10.75
+Horace Slughorn Wand                          Death Eaters         10.25
+James Potter Wand                             Death Eaters            11
+Lily Evans Wand                               Death Eaters         10.25
+Lucius Malfoy Wand                            Death Eaters            18
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+Minerva McGonagall Wand                       Death Eaters           9.5
+Neville Longbottom Wand                       Death Eaters            10
+Peter Pettigrew Wand                          Death Eaters          9.25
+Quirinus Quirrell Wand                        Death Eaters             9
+Remus Lupin Wand                              Death Eaters         10.25
+Ron Weasley First Wand                        Death Eaters            12
+Ron Weasley Wand                              Death Eaters            14
+Rubeus Hagrid Umbrella                        Death Eaters            16
+Tom Riddle Wand                               Death Eaters          13.5
+Viktor Krum Wand                              Death Eaters         10.25
+Ginny Weasley Wand                            Death Eaters          11.5
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+Sybil Trelawney Wand                          Death Eaters           9.5
+The Elder Wand                                Death Eaters            15
+Bellatrix Lestrange Wand                      Death Eaters         12.75
+Sir Cadogans Wand                             Death Eaters             9
+Celestina Warbeck Wand                        Death Eaters          10.5
+Dolores Umbridge Wand                         Death Eaters             8
+Draco Malfoy Wand                             Death Eaters            10
+Gilderoy Lockhart Wand                        Death Eaters             9
+Harry Potter Wand                             Death Eaters            11
+Snatchers Wand                                Death Eaters            10
+Hermione Granger Wand                         Death Eaters         10.75
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+Horace Slughorn Wand                          Death Eaters         10.25
+James Potter Wand                             Death Eaters            11
+Lily Evans Wand                               Death Eaters         10.25
+Lucius Malfoy Wand                            Death Eaters            18
+Minerva McGonagall Wand                       Death Eaters           9.5
+Neville Longbottom Wand                       Death Eaters            10
+Peter Pettigrew Wand                          Death Eaters          9.25
+Quirinus Quirrell Wand                        Death Eaters             9
+Remus Lupin Wand                              Death Eaters         10.25
+Ron Weasley First Wand                        Death Eaters            12
+Ron Weasley Wand                              Death Eaters            14
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+Rubeus Hagrid Umbrella                        Death Eaters            16
+Tom Riddle Wand                               Death Eaters          13.5
+Viktor Krum Wand                              Death Eaters         10.25
+Ginny Weasley Wand                            Death Eaters          11.5
+Sybil Trelawney Wand                          Death Eaters           9.5
+The Elder Wand                                Death Eaters            15
+Bellatrix Lestrange Wand                      Death Eaters         12.75
+Sir Cadogans Wand                             Death Eaters             9
+Celestina Warbeck Wand                        Death Eaters          10.5
+Dolores Umbridge Wand                         Death Eaters             8
+Draco Malfoy Wand                             Death Eaters            10
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+Gilderoy Lockhart Wand                        Death Eaters             9
+Harry Potter Wand                             Death Eaters            11
+Snatchers Wand                                Death Eaters            10
+Hermione Granger Wand                         Death Eaters         10.75
+Horace Slughorn Wand                          Death Eaters         10.25
+James Potter Wand                             Death Eaters            11
+Lily Evans Wand                               Death Eaters         10.25
+Lucius Malfoy Wand                            Death Eaters            18
+Minerva McGonagall Wand                       Death Eaters           9.5
+Neville Longbottom Wand                       Death Eaters            10
+Peter Pettigrew Wand                          Death Eaters          9.25
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+Quirinus Quirrell Wand                        Death Eaters             9
+Remus Lupin Wand                              Death Eaters         10.25
+Ron Weasley First Wand                        Death Eaters            12
+Ron Weasley Wand                              Death Eaters            14
+Rubeus Hagrid Umbrella                        Death Eaters            16
+Tom Riddle Wand                               Death Eaters          13.5
+Viktor Krum Wand                              Death Eaters         10.25
+Ginny Weasley Wand                            Death Eaters          11.5
+Sybil Trelawney Wand                          Death Eaters           9.5
+The Elder Wand                                Death Eaters            15
+Bellatrix Lestrange Wand                      Death Eaters         12.75
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+Sir Cadogans Wand                             Death Eaters             9
+Celestina Warbeck Wand                        Death Eaters          10.5
+Dolores Umbridge Wand                         Death Eaters             8
+Draco Malfoy Wand                             Death Eaters            10
+Gilderoy Lockhart Wand                        Death Eaters             9
+Harry Potter Wand                             Death Eaters            11
+Snatchers Wand                                Death Eaters            10
+Hermione Granger Wand                         Death Eaters         10.75
+Horace Slughorn Wand                          Death Eaters         10.25
+James Potter Wand                             Death Eaters            11
+Lily Evans Wand                               Death Eaters         10.25
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+Lucius Malfoy Wand                            Death Eaters            18
+Minerva McGonagall Wand                       Death Eaters           9.5
+Neville Longbottom Wand                       Death Eaters            10
+Peter Pettigrew Wand                          Death Eaters          9.25
+Quirinus Quirrell Wand                        Death Eaters             9
+Remus Lupin Wand                              Death Eaters         10.25
+Ron Weasley First Wand                        Death Eaters            12
+Ron Weasley Wand                              Death Eaters            14
+Rubeus Hagrid Umbrella                        Death Eaters            16
+Tom Riddle Wand                               Death Eaters          13.5
+Viktor Krum Wand                              Death Eaters         10.25
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+Ginny Weasley Wand                            Death Eaters          11.5
+Sybil Trelawney Wand                          Death Eaters           9.5
+The Elder Wand                                Death Eaters            15
+Bellatrix Lestrange Wand                      Death Eaters         12.75
+Sir Cadogans Wand                             Death Eaters             9
+Celestina Warbeck Wand                        Death Eaters          10.5
+Dolores Umbridge Wand                         Death Eaters             8
+Draco Malfoy Wand                             Death Eaters            10
+Gilderoy Lockhart Wand                        Death Eaters             9
+Harry Potter Wand                             Death Eaters            11
+Snatchers Wand                                Death Eaters            10
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+Hermione Granger Wand                         Death Eaters         10.75
+Horace Slughorn Wand                          Death Eaters         10.25
+James Potter Wand                             Death Eaters            11
+Lily Evans Wand                               Death Eaters         10.25
+Lucius Malfoy Wand                            Death Eaters            18
+Minerva McGonagall Wand                       Death Eaters           9.5
+Neville Longbottom Wand                       Death Eaters            10
+Peter Pettigrew Wand                          Death Eaters          9.25
+Quirinus Quirrell Wand                        Death Eaters             9
+Remus Lupin Wand                              Death Eaters         10.25
+Ron Weasley First Wand                        Death Eaters            12
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+Ron Weasley Wand                              Death Eaters            14
+Rubeus Hagrid Umbrella                        Death Eaters            16
+Tom Riddle Wand                               Death Eaters          13.5
+Viktor Krum Wand                              Death Eaters         10.25
+Ginny Weasley Wand                            Death Eaters          11.5
+Sybil Trelawney Wand                          Death Eaters           9.5
+The Elder Wand                                Death Eaters            15
+Bellatrix Lestrange Wand                      Death Eaters         12.75
+Sir Cadogans Wand                             Death Eaters             9
+Celestina Warbeck Wand                        Death Eaters          10.5
+Dolores Umbridge Wand                         Death Eaters             8
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+Draco Malfoy Wand                             Death Eaters            10
+Gilderoy Lockhart Wand                        Death Eaters             9
+Harry Potter Wand                             Death Eaters            11
+Snatchers Wand                                Death Eaters            10
+Hermione Granger Wand                         Death Eaters         10.75
+Horace Slughorn Wand                          Death Eaters         10.25
+James Potter Wand                             Death Eaters            11
+Lily Evans Wand                               Death Eaters         10.25
+Lucius Malfoy Wand                            Death Eaters            18
+Minerva McGonagall Wand                       Death Eaters           9.5
+Neville Longbottom Wand                       Death Eaters            10
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+Peter Pettigrew Wand                          Death Eaters          9.25
+Quirinus Quirrell Wand                        Death Eaters             9
+Remus Lupin Wand                              Death Eaters         10.25
+Ron Weasley First Wand                        Death Eaters            12
+Ron Weasley Wand                              Death Eaters            14
+Rubeus Hagrid Umbrella                        Death Eaters            16
+Tom Riddle Wand                               Death Eaters          13.5
+Viktor Krum Wand                              Death Eaters         10.25
+Ginny Weasley Wand                            Death Eaters          11.5
+Sybil Trelawney Wand                          Death Eaters           9.5
+The Elder Wand                                Death Eaters            15
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+Bellatrix Lestrange Wand                      Death Eaters         12.75
+Sir Cadogans Wand                             Death Eaters             9
+Celestina Warbeck Wand                        Death Eaters          10.5
+Dolores Umbridge Wand                         Death Eaters             8
+Draco Malfoy Wand                             Death Eaters            10
+Gilderoy Lockhart Wand                        Death Eaters             9
+Harry Potter Wand                             Death Eaters            11
+Snatchers Wand                                Death Eaters            10
+Hermione Granger Wand                         Death Eaters         10.75
+Horace Slughorn Wand                          Death Eaters         10.25
+James Potter Wand                             Death Eaters            11
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+Lily Evans Wand                               Death Eaters         10.25
+Lucius Malfoy Wand                            Death Eaters            18
+Minerva McGonagall Wand                       Death Eaters           9.5
+Neville Longbottom Wand                       Death Eaters            10
+Peter Pettigrew Wand                          Death Eaters          9.25
+Quirinus Quirrell Wand                        Death Eaters             9
+Remus Lupin Wand                              Death Eaters         10.25
+Ron Weasley First Wand                        Death Eaters            12
+Ron Weasley Wand                              Death Eaters            14
+Rubeus Hagrid Umbrella                        Death Eaters            16
+Tom Riddle Wand                               Death Eaters          13.5
+
+WNAME                                         INSTRUCTS           LENGTH
+--------------------------------------------- --------------- ----------
+Viktor Krum Wand                              Death Eaters         10.25
+Ginny Weasley Wand                            Death Eaters          11.5
+Sybil Trelawney Wand                          Death Eaters           9.5
+
+234 rows selected.
+
+SQL> desc R2;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ WNAME                                              VARCHAR2(45)
+ INSTRUCTS                                          VARCHAR2(15)
+ LENGTH                                             NUMBER(4,2)

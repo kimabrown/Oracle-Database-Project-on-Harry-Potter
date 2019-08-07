@@ -1,0 +1,891 @@
+SQL> create table R7 as
+  2  select house, attends_by school_attended, length length_of_wand, cincantation cast_incantation, type from_species_type, eye_color, skin, hair_color from characters, wand, casts, species
+  3  where characters.house='Gryffindor' and characters.attends_by='Hogwarts' and wand.length<=08.00 and casts.cincantation='Alohomora' and eye_color='Black' and skin='Gray' and hair_color='Gray';
+
+Table created.
+
+SQL> select * from R7;
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Winged horse                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+HOUSE           SCHOOL_ATTENDED                LENGTH_OF_WAND
+--------------- ------------------------------ --------------
+CAST_INCANTATION
+---------------------------------------------
+FROM_SPECIES_TYPE                             EYE_COLOR
+--------------------------------------------- --------------------
+SKIN                                HAIR_COLOR
+----------------------------------- ------------------------------
+Gryffindor      Hogwarts                                    8
+Alohomora
+Snallygaster                                  Black
+Gray                                Gray
+
+
+62 rows selected.
+
+SQL> desc R7
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ HOUSE                                              VARCHAR2(15)
+ SCHOOL_ATTENDED                                    VARCHAR2(30)
+ LENGTH_OF_WAND                                     NUMBER(4,2)
+ CAST_INCANTATION                                   VARCHAR2(45)
+ FROM_SPECIES_TYPE                                  VARCHAR2(45)
+ EYE_COLOR                                          VARCHAR2(20)
+ SKIN                                               VARCHAR2(35)
+ HAIR_COLOR                                         VARCHAR2(30)
+
+SQL>
